@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<title>Navigations</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+   .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
+body {
+    background-color: black;
+    background-image: url(digital-painting-mountain-with-colorful-tree-foreground.jpg);
+}
+
+img {
+    border: 5px;
+}
+</style>
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block" style="display:none;background-color: darkmagenta;  z-index: 6;" id="mySidebar" >
+  <button class="w3-bar-item w3-button w3-xxlarge" onclick="w3_close()" style="color: rgb(86, 86, 227); background-color: rgb(7, 106, 45);">MENUE &times;</button>
+  <a href="usa.html" class="w3-bar-item w3-button" style="color: blue; background-color: darkmagenta;" >USA</a>
+  <a href="#" class="w3-bar-item w3-button"  style="color: blue; background-color: darkmagenta;">CANADA</a>
+  <a href="#" class="w3-bar-item w3-button"  style="color: blue; background-color: darkmagenta;">ENGLAND</a>
+  <a href="#" class="w3-bar-item w3-button" style="color: blue; background-color: darkmagenta;">PARIS</a>
+  <a href="#" class="w3-bar-item w3-button" style="color: blue; background-color: darkmagenta;">SOUTHAFRICA</a>
+  <a href="#" class="w3-bar-item w3-button" style="color: blue; background-color: darkmagenta;">DUBAI</a>
+  <a href="#" class="w3-bar-item w3-button" style="color: blue; background-color: darkmagenta;">QATAR</a>
+  <a href="#" class="w3-bar-item w3-button" style="color: blue; background-color: darkmagenta;">SWEDEN</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-overlay" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+  <button class="container" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container" style="background-color: darkgray;  height: 1500px; width: 1500px; justify-content: center; border-radius: 5px;  justify-content: center; align-items: centre;">
+        <h1 style="text-align: center; font-weight: bold; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" >FOR GLOBAL OPPORTUNITIES</h1>
+        <h5 style="text-align: center; color: rgb(239, 241, 245); font-weight: bold; font-family: 'Times New Roman', Times, serif;">Global opportunities refer to various prospects and possibilities that exist on a worldwide scale.<br> These opportunities can span across different domains, including business, education, career, travel, investment, and more.<br> Here are a few examples of global opportunities:</h5>
+        <h4 style="text-align: center; font-family: 'Trebuchet;">AMERICA</h4>
+        <img src="digital-painting-mountain-with-colorful-tree-foreground.jpg"  class="center"/>
+  </div>
+  <div>
+    
+  </div>
+</div>
+     
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+<a href="#" class="fa fa-youtube"></a>
+          
+</body>
+</html>
